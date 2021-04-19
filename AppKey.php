@@ -1,5 +1,5 @@
 <?php 
-include_once "class/AppKeyClass.php";
+include_once "AppKeyClass.php";
 
 $request_method = $_SERVER['REQUEST_METHOD'];
 
