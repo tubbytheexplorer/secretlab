@@ -1,0 +1,15 @@
+---
+application:
+  name: "secretlab"
+  project: "secretlab"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "db_secretlab"
+  version: "5.5"
+routers:
+- name: "main-secretlab"
+  routes:
+  - application_name: "secretlab"
+    paths:
+    - "/*"
